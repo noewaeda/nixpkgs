@@ -6,6 +6,7 @@
   qtwebengine,
   libcec,
   libcec_platform,
+  kdeconnect-kde,
   sdl3,
 }:
 
@@ -34,6 +35,8 @@ mkKdeDerivation {
     libcec
     libcec_platform
     sdl3
+
+    kdeconnect-kde
   ];
 
   dontQmlLint = true;
